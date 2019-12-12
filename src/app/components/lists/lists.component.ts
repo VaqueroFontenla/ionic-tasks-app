@@ -27,7 +27,6 @@ export class ListsComponent implements OnInit {
 
 	async editTitleList(list: List) {
 
-		
 		const alert = await this.alertController.create({
 			header: 'Editar',
 			inputs: [
